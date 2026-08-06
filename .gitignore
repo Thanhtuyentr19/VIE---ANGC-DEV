@@ -28,12 +28,17 @@ yarn-error.log*
 .pnpm-debug.log*
 dev.out.log
 dev.err.log
+static.out.log
+static.err.log
 
 # env files (can opt-in for committing if needed)
 .env*
 
 # vercel
 .vercel
+
+# editor/tooling cache (leftover from earlier scaffold, not used by the static site)
+.vite/
 
 # typescript
 next-env.d.ts
