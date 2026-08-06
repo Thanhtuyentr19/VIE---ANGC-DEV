@@ -1,16 +1,12 @@
+
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
     "headers": [
         {
             "source": "/(.*)",
             "headers": [
                 {
-                    "key": "X-Frame-Options",
-                    "value": "ALLOWALL"
-                },
-                {
                     "key": "Content-Security-Policy",
-                    "value": "frame-ancestors 'self' https://sites.google.com https://*.googleusercontent.com https://www.lydinc.net https://lydinc.net"
+                    "value": "frame-ancestors 'self' https://sites.google.com https://*.google.com;"
                 }
             ]
         }
